@@ -2,12 +2,20 @@
 using namespace std;
 
 // Nodeclass representing a single ndoe in the linked list
-class Node{
-    public:
+class Node
+{
+public:
     int data;
-    Node* next;
+    Node *next;
 
-    Node(){
+    Node()
+    {
         next = NULL;
     }
+};
+
+// stack class
+class Stack
+{
+    
 };
