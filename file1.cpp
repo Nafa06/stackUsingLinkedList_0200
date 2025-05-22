@@ -110,16 +110,18 @@ int main()
             }
             break;
         case 3:
-        if (!stack.isEmpty())
-        {
-            stack.peek(); // get the value of the top element
+            if (!stack.isEmpty())
+            {
+                stack.peek(); // get the value of the top element
+            }
+            else
+            {
+                cout << "Stack is empty. No top value." << endl;
+            }
+            break;
         }
-        else
-        {
-            cout << "Stack is empty. No top value." << endl;
-        }
+    case 4:
+        cout << "Exiting program." << endl;
         break;
-        
-        }
     }
 }
