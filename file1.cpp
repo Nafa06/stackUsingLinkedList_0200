@@ -76,7 +76,8 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     Stack stack;
 
     int choice = 0;
@@ -90,6 +91,14 @@ int main(){
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            cout << "Enter the value to push: ";
+            cin >> value;
+            stack.push(value); // push the entered value to the stack
+            break;
+        }
     }
-    
 }
